@@ -16,7 +16,7 @@
     <string name="menu_settings">设置</string>
     <string name="menu_about">关于</string>
 
-    <string name="about_copyright">© %1$s xuexiangjys All rights reserved.</string>
+    <string name="about_copyright">© %1$s test All rights reserved.</string>
     <string name="about_item_homepage">访问官网(会跳到百度，我还没想好放啥)</string>
     <string name="about_item_author_github">联系作者(一样到百度)</string>
     <string name="about_item_donation_link">暂时没想好对作者干啥</string>
