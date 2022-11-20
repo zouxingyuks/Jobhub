@@ -20062,6 +20062,10 @@ com.xuexiang.xhttp2.request.CustomRequest$1:
     final synthetic com.xuexiang.xhttp2.request.CustomRequest this$0
 com.bumptech.glide.RequestManager:
     private static final com.bumptech.glide.request.RequestOptions DOWNLOAD_ONLY_OPTIONS
+com.xuexiang.templateproject.databinding.FragmentTrendingBinding:
+    public final android.widget.ImageView imageView
+    public final android.widget.ImageView imageView2
+    public final android.widget.ImageView imageView3
 com.xuexiang.xhttp2.subsciber.DownloadSubscriber$1:
     final synthetic com.xuexiang.xhttp2.subsciber.DownloadSubscriber this$0
 android.support.v4.media.ParceledListSliceAdapterApi21:
