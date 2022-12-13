@@ -30,7 +30,7 @@
         <item
             android:id="@+id/nav_trending"
             android:icon="@drawable/ic_menu_trending"
-            android:title="@string/menu_trending" />
+            android:title="@string/memu_maps" />
 
         <item
             android:id="@+id/nav_profile"
@@ -50,17 +50,17 @@
             android:icon="@drawable/ic_menu_search"
             android:title="@string/menu_search" />
 
-        <item
-            android:id="@+id/nav_notifications"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_notifications"
-            android:title="@string/menu_notifications" />
+<!--        <item-->
+<!--            android:id="@+id/nav_notifications"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/ic_menu_notifications"-->
+<!--            android:title="@string/menu_notifications" />-->
 
-        <item
-            android:id="@+id/nav_starred"
-            android:checkable="false"
-            android:icon="@drawable/ic_menu_star"
-            android:title="@string/menu_starred" />
+<!--        <item-->
+<!--            android:id="@+id/nav_starred"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/ic_menu_star"-->
+<!--            android:title="@string/menu_starred" />-->
     </group>
 
     <group

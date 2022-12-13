@@ -16300,8 +16300,8 @@ org.aspectj.internal.lang.reflect.DeclareAnnotationImpl:
 kotlin.sequences.MergingSequence$iterator$1:
     public final java.util.Iterator getIterator1()
     public final java.util.Iterator getIterator2()
-com.xuexiang.templateproject.databinding.FragmentTrendingBinding:
-    public static com.xuexiang.templateproject.databinding.FragmentTrendingBinding inflate(android.view.LayoutInflater)
+com.xuexiang.templateproject.databinding.FragmentMapsBinding:
+    public static com.xuexiang.templateproject.databinding.FragmentMapsBinding inflate(android.view.LayoutInflater)
 com.xuexiang.xui.widget.dialog.strategy.impl.AlertDialogStrategy$3:
     void <init>(com.xuexiang.xui.widget.dialog.strategy.impl.AlertDialogStrategy,android.content.DialogInterface$OnClickListener)
     final synthetic com.xuexiang.xui.widget.dialog.strategy.impl.AlertDialogStrategy this$0
@@ -20062,7 +20062,7 @@ com.xuexiang.xhttp2.request.CustomRequest$1:
     final synthetic com.xuexiang.xhttp2.request.CustomRequest this$0
 com.bumptech.glide.RequestManager:
     private static final com.bumptech.glide.request.RequestOptions DOWNLOAD_ONLY_OPTIONS
-com.xuexiang.templateproject.databinding.FragmentTrendingBinding:
+com.xuexiang.templateproject.databinding.FragmentMapsBinding:
     public final android.widget.ImageView imageView
     public final android.widget.ImageView imageView2
     public final android.widget.ImageView imageView3

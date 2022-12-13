@@ -9,7 +9,7 @@ public class TipInfo {
 
     /**
      * title : 小贴士3
-     * content : <p style=";font-family:'Microsoft YaHei';font-size:15px">欢迎关注我的微信公众号：我的Android开源之旅。</p><p><br/></p>
+     * content : <p style=";font-family:'Microsoft YaHei';font-size:15px">啥也没写</p><p><br/></p>
      */
 
     private String title;

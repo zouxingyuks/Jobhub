@@ -38,9 +38,10 @@ import com.xuexiang.templateproject.core.BaseFragment;
 import com.xuexiang.templateproject.databinding.ActivityMainBinding;
 import com.xuexiang.templateproject.fragment.news.NewsFragment;
 import com.xuexiang.templateproject.fragment.other.AboutFragment;
+import com.xuexiang.templateproject.fragment.other.SearchViewFragment;
 import com.xuexiang.templateproject.fragment.other.SettingsFragment;
 import com.xuexiang.templateproject.fragment.profile.ProfileFragment;
-import com.xuexiang.templateproject.fragment.trending.TrendingFragment;
+import com.xuexiang.templateproject.fragment.trending.MapsFragment;
 import com.xuexiang.templateproject.utils.Utils;
 import com.xuexiang.templateproject.utils.sdkinit.XUpdateInit;
 import com.xuexiang.templateproject.widget.GuideTipsDialog;
@@ -98,7 +99,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> implements V
         //主页内容填充
         BaseFragment[] fragments = new BaseFragment[]{
                 new NewsFragment(),
-                new TrendingFragment(),
+                new MapsFragment(),
                 new ProfileFragment()
         };
         FragmentAdapter<BaseFragment> adapter = new FragmentAdapter<>(getSupportFragmentManager(), fragments);
@@ -156,6 +157,8 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> implements V
                     openNewPage(SettingsFragment.class);
                 } else if (id == R.id.nav_about) {
                     openNewPage(AboutFragment.class);
+                } else if (id == R.id.nav_search) {
+                    openNewPage(SearchViewFragment.class);
                 } else {
                     XToastUtils.toast("点击了:" + menuItem.getTitle());
                 }
